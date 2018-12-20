@@ -21,7 +21,7 @@
 			"isPersistent": false,
 			"x": 5,
 			"y": 5,
-			"width": 84,
+			"width": 90,
 			"height": 357,
 			"visible": true
 		},
@@ -31,7 +31,7 @@
 			"isPersistent": false,
 			"x": 179,
 			"y": 5,
-			"width": 85,
+			"width": 91,
 			"height": 357,
 			"visible": true
 		},
@@ -41,8 +41,8 @@
 			"isPersistent": false,
 			"x": 92,
 			"y": 5,
-			"width": 84,
-			"height": 356,
+			"width": 90,
+			"height": 357,
 			"visible": true
 		}],
 	"costumes": [{
@@ -113,34 +113,6 @@
 			"x": 334,
 			"y": 72,
 			"visible": false
-		},
-		{
-			"target": "Stage",
-			"cmd": "getVar:",
-			"param": "n",
-			"color": 15629590,
-			"label": "n",
-			"mode": 1,
-			"sliderMin": 0,
-			"sliderMax": 100,
-			"isDiscrete": true,
-			"x": 267,
-			"y": 8,
-			"visible": true
-		},
-		{
-			"target": "Stage",
-			"cmd": "getVar:",
-			"param": "range",
-			"color": 15629590,
-			"label": "range",
-			"mode": 1,
-			"sliderMin": 0,
-			"sliderMax": 100,
-			"isDiscrete": true,
-			"x": 266,
-			"y": 35,
-			"visible": true
 		},
 		{
 			"objName": "Sprite1",
@@ -255,7 +227,7 @@
 					[["procDef", "sayAndWait %s", ["message"], [""], false],
 						["say:", ["getParam", "message", "r"]],
 						["doWaitUntil", ["keyPressed:", "any"]],
-						["wait:elapsed:from:", 0.1],
+						["wait:elapsed:from:", 0.2],
 						["say:", ""]]],
 				[415,
 					10,
@@ -287,12 +259,40 @@
 			}
 		},
 		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "n",
+			"color": 15629590,
+			"label": "n",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 274.95,
+			"y": 5.55,
+			"visible": true
+		},
+		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "range",
+			"color": 15629590,
+			"label": "range",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 274,
+			"y": 33.4,
+			"visible": true
+		},
+		{
 			"listName": "A",
 			"contents": [],
 			"isPersistent": false,
 			"x": 5,
 			"y": 5,
-			"width": 84,
+			"width": 90,
 			"height": 357,
 			"visible": true
 		},
@@ -302,7 +302,7 @@
 			"isPersistent": false,
 			"x": 179,
 			"y": 5,
-			"width": 85,
+			"width": 91,
 			"height": 357,
 			"visible": true
 		},
@@ -312,16 +312,17 @@
 			"isPersistent": false,
 			"x": 92,
 			"y": 5,
-			"width": 84,
-			"height": 356,
+			"width": 90,
+			"height": 357,
 			"visible": true
 		}],
 	"info": {
-		"scriptCount": 4,
-		"userAgent": "Scratch 2.0 Offline Editor",
-		"videoOn": false,
+		"projectID": "257044570",
 		"flashVersion": "WIN 31,0,0,108",
+		"videoOn": false,
+		"scriptCount": 4,
 		"spriteCount": 1,
+		"userAgent": "Scratch 2.0 Offline Editor",
 		"swfVersion": "v461"
 	}
 }
